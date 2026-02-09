@@ -6,7 +6,7 @@ const users = await $fetch(`${config.public.apiBase}/users`)
 
 <template>
     <div class="bg-amber-400 p-4">
-        <h1 class="text-xl font-bold mb-2">Nuxt + Hono This is Login page</h1>
+        <h1 class="text-xl font-bold mb-2">uxt + Hono This is Login page</h1>
         <ul>
         <li
             v-for="u in users"
