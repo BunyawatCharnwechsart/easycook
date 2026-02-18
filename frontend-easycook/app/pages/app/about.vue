@@ -45,13 +45,13 @@
         </div>
 
         <div class="text-center">
-          <img src="/ceofah.png" class="w-40 h-40 mx-auto rounded-full object-cover mb-4" />
+          <img src="/ceofah.jpg" class="w-40 h-40 mx-auto rounded-full object-cover mb-4" />
           <p class="font-medium">MS. Phattharaphon Tangtaeng</p>
           <p class="text-sm text-gray-500">C.E.O</p>
         </div>
 
         <div class="text-center">
-          <img src="/ceoball.png" class="w-40 h-40 mx-auto rounded-full object-cover mb-4" />
+          <img src="/ceoball.jpg" class="w-40 h-40 mx-auto rounded-full object-cover mb-4" />
           <p class="font-medium">MS. Phattharaphon Tangtaeng</p>
           <p class="text-sm text-gray-500">C.E.O</p>
         </div>
