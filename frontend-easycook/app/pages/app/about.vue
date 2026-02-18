@@ -1,6 +1,6 @@
 <template>
   <div class="font-sans text-gray-800">
-
+    <navBar/>
     <!-- Hero Slider -->
     <section class="relative h-screen overflow-hidden mt-16">
       <transition name="fade">
@@ -63,7 +63,9 @@
 </template>
 
 <script setup>
+import navBar from "~/components/navBar.vue";
 import { ref, onMounted, onUnmounted } from "vue";
+import NavBar from "~/components/navBar.vue";
 
 const images = [
   "/about.1.png",
