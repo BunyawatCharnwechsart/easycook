@@ -13,19 +13,21 @@
         <ul class="flex items-center gap-20 text-black font-medium">
             <li class="cursor-pointer hover:underline transition-all duration-200">เพิ่มสูตร</li>
             <li class="cursor-pointer hover:underline transition-all duration-200">หมวดหมู่</li>
-            <li class="cursor-pointer hover:underline transition-all duration-200">เกี่ยวกับ</li>
+            <nuxt-link to="/app/about">
+                <li class="cursor-pointer hover:underline transition-all duration-200">เกี่ยวกับ</li>
+            </nuxt-link>
         </ul>
 
         <!-- เข้าสู่ระบบหรือสมัคร -->
         <ul class="flex items-center gap-4">
             <li>
             <button class="px-4 py-2 text-black border cursor-pointer border-none hover:underline transition-all duration-200">
-                เข้าสู่ระบบ
+                <nuxt-link to="/auth/login">เข้าสู่ระบบ</nuxt-link>
             </button>
             </li>
             <li>
             <button class="px-4 py-2 bg-[#2C9A40] text-white rounded-lg hover:bg-black transition-colors duration-200 cursor-pointer">
-                ลงทะเบียน
+                <nuxt-link to="/auth/register">ลงทะเบียน</nuxt-link>
             </button>
             </li>
         </ul>

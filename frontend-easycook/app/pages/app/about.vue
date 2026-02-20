@@ -1,5 +1,5 @@
 <template>
-  <div class="font-sans text-gray-800">
+  <div style="font-family: 'Bai Jamjuree'" class="font-sans text-gray-800">
     <navBar/>
     <!-- Hero Slider -->
     <section class="relative h-screen overflow-hidden">
