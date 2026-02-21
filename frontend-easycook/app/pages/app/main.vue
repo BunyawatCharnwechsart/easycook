@@ -35,15 +35,22 @@
             <ADS/>
 
             <!--หมวดหมู่แนะนำ-->
-            <div class="flex w-full">
+            <div class="flex flex-col w-full">
                 <h1 class="ml-10 text-4xl">หมวดหมู่แนะนำ</h1>
+                <!--Card-->
+                <section class="m-10">
+                    <RecommendedSection/>
+                </section>
             </div>
         </section>
+        <aboutFooter/>
     </div>
 </template>
 
 <script setup>
 import navBar from '~/components/navBar.vue';
+import aboutFooter from '~/components/aboutFooter.vue';
 import ADS from '~/components/ADS.vue';
+import RecommendedSection from '~/components/RecommendedSection.vue';
 
 </script>
