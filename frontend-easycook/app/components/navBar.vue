@@ -11,8 +11,12 @@
 
         <!-- หมวดหมู่ -->
         <ul class="flex items-center gap-20 text-black font-medium">
-            <li class="cursor-pointer hover:underline transition-all duration-200">เพิ่มสูตร</li>
-            <li class="cursor-pointer hover:underline transition-all duration-200">หมวดหมู่</li>
+            <nuxt-link to="/app/createmenu">
+                <li class="cursor-pointer hover:underline transition-all duration-200">เพิ่มสูตร</li>
+            </nuxt-link>
+            <nuxt-link to="/app/category">
+                <li class="cursor-pointer hover:underline transition-all duration-200">หมวดหมู่</li>
+            </nuxt-link>
             <nuxt-link to="/app/about">
                 <li class="cursor-pointer hover:underline transition-all duration-200">เกี่ยวกับ</li>
             </nuxt-link>
